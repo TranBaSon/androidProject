@@ -146,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
     public void editTaskDialog(final int id){
 
         final Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialog_edit_task);
 
 
