@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/tvId"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffff"
+        android:text="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tran Ba Son"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvPhone"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0984328934"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tran Ba Son"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvEmail"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tran Ba Son"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

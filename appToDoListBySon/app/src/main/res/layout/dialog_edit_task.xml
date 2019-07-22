@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="#ffcccc"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#7158e2"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Edit Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:maxLength="200"
+        android:id="@+id/edtEdit"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:hint="task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnEdit"
+            android:background="#cd84f1"
+            android:text="edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnCancelEdit"
+            android:background="#cd84f1"
+            android:layout_marginLeft="50dp"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
